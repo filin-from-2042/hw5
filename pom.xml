@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.javarar</groupId>
-    <artifactId>hw-5</artifactId>
+    <artifactId>hw-1-threads-and-executors</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -22,8 +22,8 @@
 
     <properties>
         <!-- build properties-->
-        <java.source>17</java.source>
-        <java.target>17</java.target>
+        <java.source>11</java.source>
+        <java.target>11</java.target>
         <maven.compile.plugin>3.10.0</maven.compile.plugin>
 
         <!-- libraries -->
@@ -74,6 +74,16 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.23.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.23.1</version>
         </dependency>
 
         <!-- tests -->

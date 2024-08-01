@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,5 +11,14 @@
         <module name="hw-1-task-3-log-rejected-tasks" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--add-modules java.base" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hw-1-task-3-log-rejected-tasks" options="--add-modules java.base" />
+      <module name="hw-1-task-7-lucky-ticket" options="" />
+      <module name="hw-5" options="" />
+    </option>
   </component>
 </project>
